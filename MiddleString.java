@@ -5,7 +5,7 @@ public class MiddleCharacter {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        System.out.print("Enter a string: ");
+        System.out.print("Enter a str: ");
         String input = scanner.nextLine();
     
         System.out.println("Middle character(s): " + getMiddleCharacter(input));
